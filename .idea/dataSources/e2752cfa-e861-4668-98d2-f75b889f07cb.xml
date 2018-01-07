@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="dev"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="ksdb"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="mysql1"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="smartclass"/>
+    <schema id="10" parent="1" name="sys"/>
+    <table id="11" parent="2" name="books"/>
+    <table id="12" parent="2" name="t_book"/>
+    <table id="13" parent="2" name="xs"/>
+    <column id="14" parent="11" name="bookid">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="15" parent="11" name="title">
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <column id="16" parent="11" name="author">
+      <Position>3</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <column id="17" parent="11" name="publisher">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="18" parent="11" name="price">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="19" parent="12" name="bookId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="20" parent="12" name="bookName">
+      <Position>2</Position>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="21" parent="12" name="bookPrice">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="22" parent="12" name="bookImage">
+      <Position>4</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="23" parent="13" name="sno">
+      <Position>1</Position>
+      <DataType>varchar(6)|0</DataType>
+    </column>
+    <column id="24" parent="13" name="sname">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
